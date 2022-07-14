@@ -112,7 +112,7 @@ const MainComponents = () => {
           </div>
         </div>
       </section>
-      <section></section>
+
       <Footer />
     </Fragment>
   );
