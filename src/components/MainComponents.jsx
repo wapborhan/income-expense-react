@@ -112,63 +112,7 @@ const MainComponents = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <div
-            class="modal fade"
-            id="incomemodal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="modal-title">
-                    {" "}
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body text-center">
-                  <h4 id="incMessage"></h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="modal fade"
-            id="exmodal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exp-title">
-                    {" "}
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body text-center">
-                  <h4 id="expMessage"></h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section></section>
       <Footer />
     </Fragment>
   );
