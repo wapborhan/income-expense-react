@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="bg-dark mt-5">
-      <div class="container py-3">
-        <h3 id="nameTitle" class="text-center text-white">
+    <footer className="bg-dark mt-5">
+      <div className="container py-3">
+        <h3 id="nameTitle" className="text-center text-white">
           সাইট ডিজাইন করেছেন{" "}
           <a
             className="text-decoration-none text-danger"

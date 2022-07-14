@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header class="bg-dark">
-      <div class="container py-3">
-        <h1 id="nameTitle" class="text-center text-white">
+    <header className="bg-dark">
+      <div className="container py-2">
+        <h2 id="nameTitle" className="text-center text-white">
           আয় ব্যয় হিসাব
-        </h1>
+        </h2>
       </div>
     </header>
   );
