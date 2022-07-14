@@ -1,0 +1,61 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'SolaimanLipi', sans-serif;
+}
+
+.amount {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#income-btn {
+  width: 100%;
+  padding: 7px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #0d6efd;
+  border-radius: 5px;
+}
+
+li:nth-child(even) {
+  background: #424242;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+li:nth-child(odd) {
+  background: #363636;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+ol {
+  counter-reset: myOrderedListItemsCounter;
+  padding: 0;
+}
+
+ol li {
+  list-style-type: none;
+  position: relative;
+}
+
+ol li:before {
+  counter-increment: myOrderedListItemsCounter;
+  content: counter(myOrderedListItemsCounter)".";
+  margin-right: .5em;
+}
+
+#iamm,
+#eamm {
+  text-align: right;
+}
