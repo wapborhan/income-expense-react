@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Dashboard from "./pages/Dashboard/Dashboard";
 import Footer from "./pages/footer/Footer";
 import Header from "./pages/header/Header";
 
@@ -6,6 +7,7 @@ const MainComponents = () => {
   return (
     <Fragment>
       <Header />
+      <Dashboard />
       <section>
         <div class="container">
           <div class="row">
