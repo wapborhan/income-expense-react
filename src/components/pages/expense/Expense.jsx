@@ -45,7 +45,7 @@ export default class Expense extends Component {
     event.preventDefault();
     const { exdescval, exammval } = this.state;
     // regular javascript alert function
-    alert(`Your registration detail: \n 
+    alert(`Your type detail: \n 
            Desc: ${exdescval} \n 
            Amount: ${exammval} \n
            `);
