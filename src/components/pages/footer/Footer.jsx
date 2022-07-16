@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-dark mt-5">
       <div className="container py-3">
-        <h3 id="nameTitle" className="text-center text-white">
+        <h6 id="nameTitle" className="text-center text-white">
           সাইট ডিজাইন করেছেন{" "}
           <a
             className="text-decoration-none text-danger"
@@ -12,7 +12,7 @@ const Footer = () => {
           >
             SR Dream Lab
           </a>
-        </h3>
+        </h6>
       </div>
     </footer>
   );
