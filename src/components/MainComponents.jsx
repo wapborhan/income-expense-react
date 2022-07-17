@@ -34,7 +34,6 @@ export default class MainComponents extends Component {
             </div>
           </div>
         </section>
-
         <Footer />
       </Fragment>
     );

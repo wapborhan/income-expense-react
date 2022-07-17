@@ -2,7 +2,7 @@ import React from "react";
 
 const ExpenseList = (props) => {
   return (
-    <div className="border p-3 shadow">
+    <div className="border p-3 shadow rounded">
       <h2>ব্যয় এর বিবরণ</h2>
 
       {/* <!-- For JavaScript List --> */}
