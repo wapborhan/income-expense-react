@@ -1,9 +1,8 @@
 import React from "react";
 
 const Dashboard = (props) => {
-  var inclen = props.alldata.incomeDetails.length;
-  var explen = props.alldata.expenseDetails.length;
-
+  var inclen = props.alldata.incomeDetails.length.toLocaleString("bn-BD");
+  var explen = props.alldata.expenseDetails.length.toLocaleString("bn-BD");
   return (
     <section>
       <div className="container py-5">
