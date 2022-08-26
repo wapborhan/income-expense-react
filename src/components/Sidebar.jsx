@@ -17,7 +17,7 @@ const Sidebar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <NavLink to="/">
+          <NavLink to="/income-expense-react">
             <i className="fas fa-exclamation-triangle text-white">
               <ImStatsBars />
             </i>

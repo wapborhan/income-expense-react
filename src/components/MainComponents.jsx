@@ -27,7 +27,7 @@ export default class MainComponents extends Component {
             <div id="content">
               <HeadNav />
               <div className="container-fluid topbarpt">
-                <Routes>
+                <Routes baseline="/income-expense-react">
                   <Route
                     path="/income-expense-react"
                     exact
