@@ -28,7 +28,7 @@ export default class Expense extends Component {
 
   canSubmit() {
     const { exdescval, exammval } = this.state;
-    // TODO: add valid email format validation in this condition
+    // If Input Value is blank Button are Disable
     if (exdescval.length > 0 && exammval.length > 0) {
       this.setState({
         isSubmitDisabled: false,

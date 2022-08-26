@@ -1,9 +1,16 @@
-.four{
+.four {
   font-size: 90px;
   font-weight: 900;
   margin-top: 20px;
 }
-.pagenotfound{
+.pagenotfound {
   font-size: 50px;
   margin-bottom: 20px;
+}
+.fixed-bottoms {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 230px;
+  z-index: 1030;
 }

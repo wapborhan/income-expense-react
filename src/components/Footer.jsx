@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="mt-5">
-      <div className="container py-3">
+    <footer className="mt-1">
+      <div className="container py-3 ">
         <h6 id="nameTitle" className="text-center text-dark">
           সাইট ডিজাইন করেছেন{" "}
           <a
