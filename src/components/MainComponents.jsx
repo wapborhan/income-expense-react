@@ -1,5 +1,5 @@
 import React, { Fragment, Component } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 //  Pages Import
 import Sidebar from "./Sidebar";
 import HeadNav from "./HeadNav";
@@ -29,19 +29,26 @@ export default class MainComponents extends Component {
               <div className="container-fluid topbarpt">
                 <Routes>
                   <Route
-                    path="/"
+                    path="/income-expense-react"
+                    exact
                     element={<Dashboard alldata={this.state.data} />}
                   />
                   <Route
+                    path="/"
+                    element={<Navigate replace to="/income-expense-react" />}
+                  />
+                  <Route
                     path="/income"
+                    exact
                     element={<Income data={this.state.data.incomeDetails} />}
                   />
                   <Route
                     path="/expense"
+                    exact
                     element={<Expense data={this.state.data.expenseDetails} />}
                   />
-                  {/* <Route path="/about" element={<Invoices />} /> */}
-                  <Route path="*" element={<NotFound />} />
+                  {/* <Route path="/about" exact  element={<Invoices />} /> */}
+                  <Route path="*" exact element={<NotFound />} />
                 </Routes>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {
   ImCoinDollar,
   ImStatsBars,
@@ -17,37 +17,37 @@ const Sidebar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <Link to="/" className="active">
+          <NavLink to="/">
             <i className="fas fa-exclamation-triangle text-white">
               <ImStatsBars />
             </i>
             <span className="links_name">Dashboard</span>
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/income">
+          <NavLink to="/income">
             <i className="fas fa-exclamation-triangle text-white">
               <ImEnter />
             </i>
             <span className="links_name">Income</span>
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/expense">
+          <NavLink to="/expense">
             <i className="fas fa-exclamation-triangle text-white">
               <ImExit />
             </i>
             <span className="links_name">Expense</span>
-          </Link>
+          </NavLink>
         </li>
 
         <li className="log_out">
-          <Link to="/setting">
+          <NavLink to="/setting">
             <i className="fas fa-exclamation-triangle text-white">
               <ImCog />
             </i>
             <span className="links_name">About</span>
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>
