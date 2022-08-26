@@ -19,10 +19,11 @@ export default class MainComponents extends Component {
   render() {
     return (
       <Fragment>
-        <Header />
-        <Dashboard alldata={this.state.data} />
-        <section>
-          <div className="container">
+        <div id="wrapper">
+          <div class="sidebars bg-dark text-light"></div>
+          <div id="content-wrapper" class="d-flex flex-column">
+            <Header />
+            <Dashboard alldata={this.state.data} />
             <div className="row">
               <div className="col-md-6 ">
                 <Income data={this.state.data.incomeDetails} />
@@ -32,9 +33,9 @@ export default class MainComponents extends Component {
                 <Expense data={this.state.data.expenseDetails} />
               </div>
             </div>
+            <Footer />
           </div>
-        </section>
-        <Footer />
+        </div>
       </Fragment>
     );
   }
