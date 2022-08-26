@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import {
   ImCoinDollar,
   ImStatsBars,
@@ -16,37 +17,37 @@ const Sidebar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a href="#" className="active">
+          <Link to="/" className="active">
             <i className="fas fa-exclamation-triangle text-white">
               <ImStatsBars />
             </i>
             <span className="links_name">Dashboard</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/income">
             <i className="fas fa-exclamation-triangle text-white">
               <ImEnter />
             </i>
             <span className="links_name">Income</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/expense">
             <i className="fas fa-exclamation-triangle text-white">
               <ImExit />
             </i>
             <span className="links_name">Expense</span>
-          </a>
+          </Link>
         </li>
 
         <li className="log_out">
-          <a href="#">
+          <Link to="/setting">
             <i className="fas fa-exclamation-triangle text-white">
               <ImCog />
             </i>
-            <span className="links_name">Setting</span>
-          </a>
+            <span className="links_name">About</span>
+          </Link>
         </li>
       </ul>
     </div>

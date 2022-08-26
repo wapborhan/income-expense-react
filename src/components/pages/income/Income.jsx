@@ -51,6 +51,7 @@ export default class Income extends Component {
            `);
   };
   render() {
+    document.title = "Income";
     return (
       <Fragment>
         <div className="border shadow rounded mb-3">

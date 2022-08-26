@@ -50,8 +50,8 @@ input {
   min-width: 60px;
   text-align: center
 }
-.sidebars .logo-details img {
-  width: 40px;
+.sidebars .logo-details svg {
+  font-size: 40px;
 }
 .sidebars .logo-details .logo_name{
   color: #fff;
