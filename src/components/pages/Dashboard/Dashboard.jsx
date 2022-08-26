@@ -28,7 +28,7 @@ const Dashboard = (props) => {
             <div className="py-3 px-5 shadow bg-primary text-white rounded">
               <h2 className="title">আয় - ({inclen})</h2>
               <p className="amount">
-                ৳ <span id="prebalance">{sumIncome}</span>
+                ৳ <span id="prebalance">{sumIncome.toFixed(2)}</span>
               </p>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Dashboard = (props) => {
             <div className="py-3 px-5 shadow bg-danger text-white rounded">
               <h2 className="title">ব্যয় - ({explen})</h2>
               <p className="amount">
-                ৳ <span id="total-expense">{sumexpense}</span>
+                ৳ <span id="total-expense">{sumexpense.toFixed(2)}</span>
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Dashboard = (props) => {
             <div className="py-3 px-5 shadow bg-info text-white rounded">
               <h2 className="title">অবশিষ্ট</h2>
               <p className="amount">
-                ৳ <span id="balance">{remamount}</span>
+                ৳ <span id="balance">{remamount.toFixed(2)}</span>
               </p>
             </div>
           </div>
