@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 import {
   ImCoinDollar,
@@ -10,7 +10,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="sidebars bg-dark text-light">
+    <Fragment>
       <div className="logo-details">
         <ImCoinDollar />
         <span className="logo_name">SR BOOK</span>
@@ -50,7 +50,7 @@ const Sidebar = () => {
           </NavLink>
         </li>
       </ul>
-    </div>
+    </Fragment>
   );
 };
 
