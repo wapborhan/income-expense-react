@@ -19,7 +19,7 @@ const Dashboard = (props) => {
   // Remaining Amount
   var remamount = sumIncome - sumexpense;
   console.log(remamount);
-  document.title = "SR Book";
+  document.title = "Dashboard - SR Book";
   return (
     <section>
       <div className="container py-5">

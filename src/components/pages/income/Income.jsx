@@ -28,7 +28,7 @@ export default class Income extends Component {
 
   canSubmit() {
     const { indescval, inammval } = this.state;
-    // TODO: add valid email format validation in this condition
+    // If Input Value is blank Button are Disable
     if (indescval.length > 0 && inammval.length > 0) {
       this.setState({
         isSubmitDisabled: false,
@@ -51,7 +51,7 @@ export default class Income extends Component {
            `);
   };
   render() {
-    document.title = "Income";
+    document.title = "Income - SR Book";
     return (
       <Fragment>
         <div className="border shadow rounded mb-3">

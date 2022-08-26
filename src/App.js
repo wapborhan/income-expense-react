@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import MainComponents from "./components/MainComponents";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
@@ -6,10 +7,20 @@ import { FaBars, FaUserCircle } from "react-icons/fa";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
+  const [isActive, setActive] = useState("false");
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
   return (
     <BrowserRouter>
       <div id="wrapper">
-        <div className="sidebars bg-dark text-light">
+        <div
+          className={
+            isActive
+              ? "sidebars bg-dark text-light  "
+              : "sidebars bg-dark text-light active"
+          }
+        >
           <Sidebar />
         </div>
         <div id="content-wrapper" className="d-flex flex-column">
@@ -18,8 +29,14 @@ function App() {
               id="topbar"
               className="topbar navbar navbar-expand navbar-light bg-white  mb-4 static-top shadow d-flex justify-content-between px-4"
             >
-              <div className="sidebars-button text-dark mr-auto">
+              <div
+                className="sidebars-button text-dark mr-auto"
+                onClick={handleToggle}
+              >
                 <FaBars />
+                <div className={isActive ? "dashboard" : "dashboard-show"}>
+                  SR BOOK
+                </div>
               </div>
 
               <h2 id="nameTitle" className="text-center text-dark">

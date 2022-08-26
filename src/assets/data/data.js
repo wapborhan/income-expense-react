@@ -3,12 +3,12 @@ const DATA = {
     {
       idate: "16-Jan-2022",
       idesc: "A",
-      iamm: 1,
+      iamm: 1.569,
     },
     {
       idate: "17-Jan-2022",
       idesc: "B",
-      iamm: 2,
+      iamm: 2.584,
     },
     {
       idate: "18-Jan-2022",

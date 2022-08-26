@@ -43,11 +43,11 @@ input {
   align-items: center;
   padding: 10px;
 }
-.sidebars .logo-details i{
+.sidebars .logo-details svg{
   font-size: 28px;
   font-weight: 500;
   color: #fff;
-  min-width: 60px;
+  min-width: 45px;
   text-align: center
 }
 .sidebars .logo-details svg {
@@ -211,6 +211,7 @@ input {
   display: block;
   transition: all 0.5s ease;
   cursor: auto;
+  margin-left: 15px;
 }
 .dashboard{
   display: none;

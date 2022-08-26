@@ -52,7 +52,7 @@ export default class Expense extends Component {
   };
 
   render() {
-    document.title = "Expense";
+    document.title = "Expense - SR Book";
     return (
       <Fragment>
         <div className="border shadow rounded mb-3">
