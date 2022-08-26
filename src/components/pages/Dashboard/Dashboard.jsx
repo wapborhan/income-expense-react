@@ -6,7 +6,7 @@ const Dashboard = (props) => {
   document.title = "Dashboard - SR Book";
   return (
     <section>
-      <div className="sw  ">
+      <div className="sw">
         <Summary data={props.alldata} />
         <BarChart />
       </div>
