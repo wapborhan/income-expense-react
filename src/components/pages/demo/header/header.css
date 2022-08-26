@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  background: #6fcf97;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    display: none;
+  }
+}

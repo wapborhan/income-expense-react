@@ -1,0 +1,17 @@
+.content {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.content-item {
+  display: inline-block;
+  background: grey;
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+  }
+}
