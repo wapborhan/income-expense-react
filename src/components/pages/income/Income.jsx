@@ -84,7 +84,7 @@ export default class Income extends Component {
                 </div>
                 <div className="col-md-3">
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-success"
                     id="income-btn"
                     data-bs-toggle="modal"
                     data-bs-target="#incomemodal"
