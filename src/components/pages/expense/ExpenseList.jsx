@@ -8,7 +8,7 @@ import {
 } from "react-table";
 
 import { COLUMNS } from "./Columns";
-import { GlobalFilter } from "./GlobalFilter";
+import { GlobalFilter } from "./filter/GlobalFilter";
 //import './table.css';
 import "./filtering.css";
 

@@ -62,7 +62,7 @@ export const data = {
     },
     {
       label: "Remaining",
-      data: [0, 0, 0, 0, 750, 0, 0, 0, 0, 0, 0, 0],
+      data: [0, 0, 0, 0, 4750, 0, 0, 0, 0, 0, 0, 0],
       backgroundColor: "rgba(13,202,240, 0.8)",
     },
   ],
