@@ -1,16 +1,16 @@
 import { format } from "date-fns";
 import { ColumnFilter } from "./ColumnFilter";
 export const COLUMNS = [
+  // {
+  //   Header: "Id",
+  //   Footer: "Id",
+  //   accessor: "id",
+  //   Filter: ColumnFilter,
+  //   //disableFilters: true,
+  // },
   {
-    Header: "Id",
-    Footer: "Id",
-    accessor: "id",
-    Filter: ColumnFilter,
-    //disableFilters: true,
-  },
-  {
-    Header: "Date",
-    Footer: "Date",
+    Header: "তারিখ",
+    Footer: "তারিখ",
     accessor: "edate",
     Cell: ({ value }) => {
       return format(new Date(value), "dd/mm/yyyy");
@@ -18,14 +18,14 @@ export const COLUMNS = [
     Filter: ColumnFilter,
   },
   {
-    Header: "Description",
-    Footer: "Description",
+    Header: "বিবরণী",
+    Footer: "বিবরণী",
     accessor: "edesc",
     Filter: ColumnFilter,
   },
   {
-    Header: "Amount",
-    Footer: "Amount",
+    Header: "পরিমান",
+    Footer: "পরিমান",
     accessor: "eamm",
     Filter: ColumnFilter,
   },

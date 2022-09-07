@@ -40,14 +40,6 @@ const Sidebar = () => {
             <span className="links_name">Expense</span>
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/table">
-            <i className="fas fa-exclamation-triangle text-white">
-              <ImExit />
-            </i>
-            <span className="links_name">Table</span>
-          </NavLink>
-        </li>
 
         <li className="log_out">
           <NavLink to="/setting">

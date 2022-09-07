@@ -4,7 +4,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "./pages/dashboard/Dashboard";
 import Income from "./pages/income/Income";
 import Expense from "./pages/expense/Expense";
-import FilteringTable from "./FilteringTable/FilteringTable";
+// import FilteringTable from "./FilteringTable/FilteringTable";
 
 import DATA from "../assets/data/data";
 import NotFound from "./pages/notfound/NotFound";
@@ -40,7 +40,7 @@ export default class MainComponents extends Component {
               exact
               element={<Expense data={this.state.data.expenseDetails} />}
             />
-            <Route path="/table" exact element={<FilteringTable />} />
+            {/* <Route path="/table" exact element={<FilteringTable />} /> */}
             {/* <Route path="/about" exact  element={<Invoices />} /> */}
             <Route path="*" exact element={<NotFound />} />
           </Routes>
