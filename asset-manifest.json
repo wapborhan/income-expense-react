@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/income-expense-react/static/css/main.1bbe3b35.css",
-    "main.js": "/income-expense-react/static/js/main.ef3048a9.js",
+    "main.css": "/income-expense-react/static/css/main.fcc86a01.css",
+    "main.js": "/income-expense-react/static/js/main.7ce59131.js",
     "static/js/787.167e3ba3.chunk.js": "/income-expense-react/static/js/787.167e3ba3.chunk.js",
     "index.html": "/income-expense-react/index.html",
-    "main.1bbe3b35.css.map": "/income-expense-react/static/css/main.1bbe3b35.css.map",
-    "main.ef3048a9.js.map": "/income-expense-react/static/js/main.ef3048a9.js.map",
+    "main.fcc86a01.css.map": "/income-expense-react/static/css/main.fcc86a01.css.map",
+    "main.7ce59131.js.map": "/income-expense-react/static/js/main.7ce59131.js.map",
     "787.167e3ba3.chunk.js.map": "/income-expense-react/static/js/787.167e3ba3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bbe3b35.css",
-    "static/js/main.ef3048a9.js"
+    "static/css/main.fcc86a01.css",
+    "static/js/main.7ce59131.js"
   ]
 }
