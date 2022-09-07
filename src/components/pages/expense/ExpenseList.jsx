@@ -7,10 +7,10 @@ import {
   usePagination,
 } from "react-table";
 
-import { COLUMNS } from "./Columns";
+import { COLUMNS } from "./filter/Columns";
 import { GlobalFilter } from "./filter/GlobalFilter";
 //import './table.css';
-import "./filtering.css";
+import "./filter/filtering.css";
 
 export const ExpenseList = (props) => {
   const DATA = props.data;
