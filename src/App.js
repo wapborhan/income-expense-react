@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MainComponents from "./components/MainComponents";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
-import { FaBars, FaUserCircle } from "react-icons/fa";
+import { FaBars, FaUserCircle, FaAlignLeft } from "react-icons/fa";
 
 import { BrowserRouter } from "react-router-dom";
 
@@ -33,9 +33,10 @@ function App() {
                 className="sidebars-button text-dark mr-auto"
                 onClick={handleToggle}
               >
-                <FaBars />
+                {isActive ? <FaBars /> : <FaAlignLeft />}
+                {/* <FaBars /> */}
                 <div className={isActive ? "dashboard" : "dashboard-show"}>
-                  SR BOOK
+                  SR BUDGET
                 </div>
               </div>
 

@@ -14,3 +14,6 @@
   left: 230px;
   z-index: 1030;
 }
+.sidebars-button {
+  transition: all linear 0.3s !important;
+}
