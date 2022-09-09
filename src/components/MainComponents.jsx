@@ -1,5 +1,6 @@
 import React, { Fragment, Component } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
+import axios from "axios";
 //  Pages Import
 import Dashboard from "./pages/dashboard/Dashboard";
 import Income from "./pages/income/Income";
@@ -15,6 +16,16 @@ export default class MainComponents extends Component {
     this.state = {
       data: DATA,
     };
+  }
+  componentDidMount() {
+    axios
+      .get("https://srbudgetz-default-rtdb.firebaseio.com/")
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   }
   render() {
     return (
