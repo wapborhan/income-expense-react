@@ -44,7 +44,9 @@ function App() {
                 আয় ব্যয় হিসাব
               </h2>
               <div className="account ">
-                <FaUserCircle />
+                <a href="#">
+                  <FaUserCircle />
+                </a>
               </div>
             </nav>
             <MainComponents />
