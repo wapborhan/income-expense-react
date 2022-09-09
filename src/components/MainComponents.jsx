@@ -17,16 +17,7 @@ export default class MainComponents extends Component {
       data: DATA,
     };
   }
-  componentDidMount() {
-    axios
-      .get("https://srbudgetz-default-rtdb.firebaseio.com/")
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }
+
   render() {
     return (
       <Fragment>
