@@ -73,6 +73,7 @@ const BarChart = () => {
     <div className="row">
       <div className="col-md-12">
         <Bar height={100} options={options} data={data} />
+        <Pie height={100} options={options} data={data} />
       </div>
     </div>
   );
