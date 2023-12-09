@@ -50,7 +50,8 @@ Note: Need server site for run proper
 
 ### Features
 
-- **Search User**: Fetch Github User Data by Using Username
-- **Repo**: Show Repositories.
+- **Dashboard**: Show Total Income, Expanse and Remaining Balance
+- **Income**: Add Income and show as tabular
+- **Expanse**: Add Expanse and show as tabular
 
 
